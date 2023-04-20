@@ -55,4 +55,16 @@ fn main() {
     }
 
     println!("LIFTOFF!!!");
+
+
+    let mut c = 0;
+    let result = loop{
+        c += 1;
+
+        if c == 13 {
+            break c
+        }
+    };
+
+    println!("{}", result);
 }
